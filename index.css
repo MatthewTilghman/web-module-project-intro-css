@@ -61,12 +61,18 @@ border-spacing: 0;
 * { 
     box-sizing: border-box; 
 } 
+body {
+    margin: 0;
+}
 button { 
+    font-family: "Chelsea Market"; 
     border-radius: 15px;
     color: white; 
-    border: 0px solid white;  font-size: 27px; 
-    margin-left: 5%; 
-    margin-top: 10%; 
+    border: 0px solid white;  
+    font-size: .9rem;
+    margin: 10%; 
+    margin-left: 10%; 
+    margin-top: 5%; 
     padding: 20px 15px;
 } 
 .Plan { 
@@ -80,27 +86,25 @@ button {
 } 
 nav .button { 
     margin-top: 30px; 
-} 
-.canyon {
-    display: inline;
-    margin-right: 55%;
 }
 .topleft {
-    width: 300px;
-    margin-top: 5%; 
-    border-radius: 50%; 
-    display: inline;
-} 
-.wilderness{ 
     display: inline-block;
-    box-sizing: border-box;
-    vertical-align: middle;
-    margin-left: 50%;
+    width: 300px;
+    border-radius: 50%; 
+}
+.wilderness {
+    display: inline-block;
+    padding: 0 0 5% 10%;
+}
+.reservations {
+    display: block;
+    margin-left: 10%;
+    width: 75%;
+    padding-top: 10%;
 } 
 h1{ 
     font-size: 3.0rem; 
-    font-family: "Chelsea Market"; 
-    padding-bottom: 5%;  
+    font-family: "Chelsea Market";   
 }
 .Explore{ 
    padding-bottom: 10%; 
@@ -112,7 +116,7 @@ h1{
    padding: 2.5% 10% 2.5% 10%;
    margin-top: 5%;
    margin-right: 2.5%;
-   margin-left: 2.5%;
+   margin-left: 5%;
 } 
 .fire{ 
    margin-top: 5%;  
@@ -123,14 +127,28 @@ h1{
 .firestarting{ 
    text-align: center; 
    margin-left: 40%; 
-   margin-right: 40%; 
-} 
+   margin-right: 40%;
+   padding-top: 2.5%; 
+}
+.bold {
+    font-weight: bold;
+}
 .Lodging{ 
    text-align: center; 
    margin-left: 40%; 
    margin-right: 40%; 
-   margin-bottom: 15%; 
+   margin-bottom: 15%;
+   padding-top: 2.5%; 
+}
+.wrapper .landscape{
+    width:100%;
+    height: 80vh;
+}
+.landscape {
+    max-width: 100%;
+    width: 100vw;
 } 
 .footer_nav{ 
-   margin-bottom: 10%; 
+   background-color: #F9E7DC; 
+   padding: 0 10%;
 }
