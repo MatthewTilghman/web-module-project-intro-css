@@ -69,11 +69,11 @@ button {
     border-radius: 15px;
     color: white; 
     border: 0px solid white;  
-    font-size: .9rem;
+    font-size: 1rem;
     margin: 10%; 
     margin-left: 10%; 
     margin-top: 5%; 
-    padding: 20px 15px;
+    padding: 15px 30px;
 } 
 .Plan { 
     background: #FF764E; 
@@ -107,38 +107,38 @@ h1{
     font-family: "Chelsea Market";   
 }
 .Explore{ 
-   padding-bottom: 10%; 
-   width: 75%; 
-   margin: auto; 
+    padding-bottom: 10%; 
+    width: 75%; 
+    margin: auto; 
 } 
 .Info{ 
-   background-color: #DDB9A3; color: white; 
-   padding: 2.5% 10% 2.5% 10%;
-   margin-top: 5%;
-   margin-right: 2.5%;
-   margin-left: 5%;
-} 
+    background-color: #DDB9A3; color: white; 
+    padding: 2.5% 10% 2.5% 10%;
+    margin-top: 5%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+}
 .fire{ 
-   margin-top: 5%;  
+    margin-top: 5%;  
 } 
 .Van{ 
-   margin-top: 10%; 
+    margin-top: 10%; 
 } 
 .firestarting{ 
-   text-align: center; 
-   margin-left: 40%; 
-   margin-right: 40%;
-   padding-top: 2.5%; 
+    text-align: center; 
+    margin-left: 40%; 
+    margin-right: 40%;
+    padding-top: 2.5%; 
 }
 .bold {
     font-weight: bold;
 }
 .Lodging{ 
-   text-align: center; 
-   margin-left: 40%; 
-   margin-right: 40%; 
-   margin-bottom: 15%;
-   padding-top: 2.5%; 
+    text-align: center; 
+    margin-left: 40%; 
+    margin-right: 40%; 
+    margin-bottom: 15%;
+    padding-top: 2.5%; 
 }
 .wrapper .landscape{
     width:100%;
@@ -149,6 +149,6 @@ h1{
     width: 100vw;
 } 
 .footer_nav{ 
-   background-color: #F9E7DC; 
-   padding: 0 10%;
+    background-color: #F9E7DC; 
+    padding: 0 10%;
 }
